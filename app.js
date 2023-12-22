@@ -2,10 +2,8 @@ import dataGeoJson from "./data.json" assert { type: "json" };
 
 const tbody = document.getElementById("table-body");
 
-// Clear existing tbody content
 tbody.innerHTML = "";
 
-// Loop through the data and create rows
 dataGeoJson.features.forEach((rowData, key) => {
     const row = document.createElement("tr");
 
