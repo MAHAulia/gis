@@ -1,4 +1,5 @@
-import dataGeoJson from "./data.json" assert { type: "json" };
+const dataGeoJson = await fetch('./data.json')
+  .then(response => response.json())
 
 const tbody = document.getElementById("table-body");
 
