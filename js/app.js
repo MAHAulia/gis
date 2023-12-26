@@ -1,4 +1,4 @@
-const dataGeoJson = await fetch('./data.json')
+const dataGeoJson = await fetch('./api/data.json')
   .then(response => response.json())
 
 const tbody = document.getElementById("table-body");
