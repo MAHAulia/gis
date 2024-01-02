@@ -23,5 +23,4 @@ export async function runAfterContent(){
     let urljs = getURLContentJS();
     let module = await import(urljs);
     module.main();
-    console.log(urljs);
 }
