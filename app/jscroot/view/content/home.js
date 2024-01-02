@@ -9,6 +9,10 @@ export function main(){
             const point = data.features.filter((item) => item.geometry.type === 'Point')
             const lineString = data.features.filter((item) => item.geometry.type === 'LineString')
             const polygon = data.features.filter((item) => item.geometry.type === 'Polygon')
+            setInner("point", point.length.toLocaleString());
+            setInner("linestring",lineString.length.toLocaleString());
+            setInner("poligon",polygon.length.toLocaleString());
+            setInner("total",data.features.length.toLocaleString());
             console.log(data, point, lineString, polygon)
         });
 }
