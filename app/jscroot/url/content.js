@@ -1,6 +1,5 @@
-import { url } from "https://jscroot.github.io/template/base/jscroot/url/config.js";
+import { url } from "https://github.com/MAHAulia/gis/app/jscroot/url/config.js";
 import {getHash} from "https://cdn.jsdelivr.net/gh/jscroot/url@0.0.2/croot.js";
-
 
 export function getContentURL(){
     let hashlink=parseInt(getHash());

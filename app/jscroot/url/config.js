@@ -1,6 +1,6 @@
 //please always use trailing slash(/) for folder or extension for file.
 export const croot = "http://127.0.0.1:5500/app/";
-// export const croot = "https://jscroot.github.io/template/base/";
+// export const croot = "https://github.com/MAHAulia/gis/app/";
 
 const folder={
     template:"jscroot/template/",
