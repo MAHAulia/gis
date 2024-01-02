@@ -19,6 +19,7 @@ export function main(){
             tbody.innerHTML = "";
 
             data.features.forEach((rowData, key) => {
+                    console.log(rowData)
                     const row = document.createElement("tr");
 
                     const no = document.createElement("td");
