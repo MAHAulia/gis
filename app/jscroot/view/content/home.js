@@ -19,7 +19,6 @@ export function main(){
             tbody.innerHTML = "";
 
             data.features.forEach((rowData, key) => {
-                    console.log(rowData)
                     const row = document.createElement("tr");
 
                     const no = document.createElement("td");
@@ -27,7 +26,7 @@ export function main(){
                     row.appendChild(no);
                 
                     const nama = document.createElement("td");
-                    nama.textContent = rowData.properties.name;
+                    nama.textContent = rowData.propertie.name;
                     row.appendChild(nama);
                 
                     const type = document.createElement("td");
