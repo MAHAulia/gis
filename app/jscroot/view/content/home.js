@@ -6,7 +6,10 @@ export function main(){
     fetch("https://mahaulia.github.io/gis/app/api/data.json")
         .then((response) => response.json())
         .then((data) => {
-            console.log(data)
+            const point = data.features.filter((item) => item.geometry.type === 'Point')
+            const lineString = data.features.filter((item) => item.geometry.type === 'LineString')
+            const polygon = data.features.filter((item) => item.geometry.type === 'Polygon')
+            console.log(data, point, lineString, polygon)
         });
 }
 
