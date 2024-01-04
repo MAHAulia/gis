@@ -26,7 +26,7 @@ export function main(){
                     row.appendChild(no);
                 
                     const nama = document.createElement("td");
-                    nama.textContent = rowData.propertie.name;
+                    nama.textContent = rowData.properties.name;
                     row.appendChild(nama);
                 
                     const type = document.createElement("td");
