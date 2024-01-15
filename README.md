@@ -27,4 +27,7 @@ Repository menunjukan bagaiman kita mengelola data GeoJSON
 [GIS PAGE](https://mahaulia.github.io/gis/)
 
 ### 4. Bagaimana kita akan memanfaatkan mongoDB untuk menyimpan data GeoJSON kita.
-[![enter image description here](https://raw.githubusercontent.com/MAHAulia/gis/main/thumbnile.png)](https://youtu.be/TAXCckhjMKY)
+[![enter image description here](https://raw.githubusercontent.com/MAHAulia/gis/main/thumbnile.png)](https://www.youtube.com/watch?v=VY0jo6E0J1Y)
+
+### 5. Geospatial Query di mongoDB
+[![enter image description here](https://raw.githubusercontent.com/MAHAulia/gis/main/thumbnile.png)](https://www.youtube.com/watch?v=3VugOVcHjwM)
