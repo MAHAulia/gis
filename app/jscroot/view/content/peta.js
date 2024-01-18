@@ -10,7 +10,7 @@ export function main() {
   }).addTo(map);
 
   // Get data
-  fetch("https://mahaulia.github.io/gis/app/api/data.json")
+  fetch("https://geojson-api.fly.dev/coffee_shops")
     .then((response) => response.json())
     .then((data) => {
       // set center ke data index ke 1

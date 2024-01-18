@@ -3,7 +3,7 @@ import {setInner} from "https://cdn.jsdelivr.net/gh/jscroot/element@0.1.2/croot.
 export function main(){
     setInner("biggreet","Halo Pengunjung");
 
-    fetch("https://mahaulia.github.io/gis/app/api/data.json")
+    fetch("https://geojson-api.fly.dev/coffee_shops")
         .then((response) => response.json())
         .then((data) => {
             const point = data.features.filter((item) => item.geometry.type === 'Point')
