@@ -40,6 +40,9 @@ export function main(){
                     tbody.appendChild(row);
                 }
             );
+        })
+        .catch((err) => {
+            alert("Gagal Mengambil data GeoJSON")
         });
 }
 

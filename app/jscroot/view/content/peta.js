@@ -26,5 +26,8 @@ export function main() {
           layer.bindPopup(feature.properties.name);
         },
       });
+    })
+    .catch((err) => {
+      alert("Gagal Mengambil data GeoJSON");
     });
 }
