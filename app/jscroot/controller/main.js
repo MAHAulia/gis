@@ -1,8 +1,8 @@
 import { insertHTML } from "https://cdn.jsdelivr.net/gh/jscroot/api@0.0.4/croot.js";
-import { url } from "https://mahaulia.github.io/gis/app//jscroot/url/config.js";
-import { getURLContentJS } from "https://mahaulia.github.io/gis/app//jscroot/url/content.js";
-import { showMenu,activeLink } from "https://mahaulia.github.io/gis/app//jscroot/controller/navbar.js";
-import { getContentURL } from "https://mahaulia.github.io/gis/app//jscroot/url/content.js";
+import { url } from "../url/config.js";
+import { getURLContentJS } from "../url/content.js";
+import { showMenu,activeLink } from "../controller/navbar.js";
+import { getContentURL } from "../url/content.js";
 
 
 export function runAfterHashChange(evt){

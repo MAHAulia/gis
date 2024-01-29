@@ -1,5 +1,6 @@
+import {getHost, getProtocol} from "https://cdn.jsdelivr.net/gh/jscroot/url@0.0.2/croot.js";
 //please always use trailing slash(/) for folder or extension for file.
-export const croot = "https://mahaulia.github.io/gis/app/";
+export const croot = `${getProtocol()}://${getHost()}/app/`;
 
 const folder={
     template:"jscroot/template/",
