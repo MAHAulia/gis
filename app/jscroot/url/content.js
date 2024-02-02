@@ -8,6 +8,8 @@ export function getContentURL(){
             return url.content+"home.html";
         case 2:
             return url.content+"peta.html";
+        case 3:
+            return url.content+"open_layer.html";
         default:
             return url.content+"home.html";
     }
@@ -23,6 +25,8 @@ export function getURLContentJS(){
             return url.contentview+"home.js";
         case 2:
             return url.contentview+"peta.js";
+        case 3:
+            return url.contentview+"open_layer.js";
         default:
             return url.contentview+"home.js";
     }
